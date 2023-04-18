@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logoIcon.jpg">
+    <!-- link css & normlize -->
+    <link rel="stylesheet" href="/CSS/basket.css">
+    <link rel="stylesheet" href="/CSS/normlize.css">
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="/Font/css/all.min.css">
+    <title>basket site</title>
+</head>
+
+<body>
+
+    <!-- start navbar -->
+    <section class="navbar">
+        <div class="container">
+            <div class="box-nav">
+                <h2>سيارتي</h2>
+            </div>
+        </div>
+    </section>
+    <!-- end navbar -->
+
+    <section class="my-cars">
+        <div class="container">
+            <div class="box-myCars">
+                <div class="button-new-cars">
+                    <button class="new-cars d-flex align-items-center justify-content-center pointer">
+                        <p class="plus d-flex align-items-center justify-content-center"><i
+                                class="fa-solid fa-plus"></i></p>
+                        <p class="button pointer">أضف سيارة إلى الكراج</p>
+                    </button>
+                </div>
+                <div class="box-type-car  d-flex align-items-center justify-content-center">
+                </div>
+            </div>
+            <div class="pop-add-car">
+                <section class="navbar">
+                    <div class="box-nav">
+                        <i class="fa-solid fa-chevron-right pointer add-car"></i>
+                        <h2>إضافة سيارة</h2>
+                    </div>
+                </section>
+                <div class="form-add-cars d-flex align-items-center justify-content-space-between">
+                    <div class="all-select">
+                        <div class="select select-TypeCars">
+                            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                            <select class="brand">
+                                <option selected disabled>الماركة</option>
+                            </select>
+                        </div>
+                        <div class="select">
+                            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                            <select class="model">
+                                <option selected disabled>الموديل</option>
+                            </select>
+                        </div>
+                        <div class="select">
+                            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                            <select class="year">
+                                <option selected disabled>السنة</option>
+                            </select>
+                        </div>
+                        <div class="select">
+                            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                            <select class="">
+                                <option selected disabled>اسطوانات</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                                <option value="12">12</option>
+                            </select>
+    
+                        </div>
+                    </div>
+                    <p class="mistake">أدخل المعلومات بشكل صحيح</p>
+                    <button class="pointer">أضف سيارة</button>
+                </div>
+        
+            </div>
+            <div class="pop-deleted">
+                <div class="box-pop-delet">
+                    <i class="fa-solid fa-car"></i>
+                    <h2>حذف</h2>
+                    <p>هل تريد حذف السيارة؟</p>
+                    <p class="alert">ستفقد جميع المعلومات المتعلقة بالسيارة</p>
+                    <div class="button-delet">
+                        <button class="yes-delete">حذف السيارة</button>
+                        <button class="no-delete">إلغاء</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/JS/basket.js"></script>
+</body>
+
+</html>
